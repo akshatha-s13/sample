@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 master_doc = 'index'
-project = 'Sample'
+project = 'Test'
 copyright = '2020, Author'
 author = 'Author'
 
