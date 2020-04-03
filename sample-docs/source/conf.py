@@ -16,7 +16,7 @@
 
 
 # -- Project information -----------------------------------------------------
-
+master_doc = 'index'
 project = 'Sample'
 copyright = '2020, Author'
 author = 'Author'
