@@ -2,7 +2,7 @@
 
 ## Documentation
 
-* http://sample.readthedocs.io/
+* http://sample-test.readthedocs.io/
 
 ## Link
 
