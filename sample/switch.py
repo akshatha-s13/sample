@@ -2,9 +2,21 @@ class Switch():
     """
 
     Switch module
-
     
 
+    Returns all the interfaces of the switch in dictionary format(interface name:interface object)
+
+    :return: Returns all the interfaces(Fc and PortChannel) on the switch in dictionary format(interface name:interface object)
+    :rtype: dict(name:Interface(Fc or PortChannel)
+    :example:
+        >>> allint = switch_obj.interfaces
+        >>> print(allint)
+        {'fc1/1': <mdslib.fc.Fc object at 0x10bd5da90>, 'fc1/2': <mdslib.fc.Fc object at 0x10bde4050>, 'fc1/3': <mdslib.fc.Fc object at 0x10bd5d650>,
+         'fc1/4': <mdslib.fc.Fc object at 0x10bd5df90>, 'fc1/5': <mdslib.fc.Fc object at 0x10bd5d9d0>, .....
+         'port-channel212': <mdslib.portchannel.PortChannel object at 0x10d88ee90>, 'port-channel213': <mdslib.portchannel.PortChannel object at 0x10d88eed0>,
+         'port-channel214': <mdslib.portchannel.PortChannel object at 0x10d88ef50>}
+        >>>
+        
     :example:
         >>>
         >>> intcounters = int_obj.counters
