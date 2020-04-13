@@ -10,6 +10,10 @@ Welcome to Sample's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+README
+======
+
+.. mdinclude:: ../README.md
 
 Switch 
 ======
