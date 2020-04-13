@@ -14,8 +14,8 @@ Welcome to Sample's documentation!
 Switch 
 ======
 
-.. automodule:: mdslib.switch
-.. autoclass:: mdslib.switch.Switch
+.. automodule:: sample.switch
+.. autoclass:: sample.switch.Switch
    :members:
    :inherited-members:
 
