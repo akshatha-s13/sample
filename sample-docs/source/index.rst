@@ -11,6 +11,13 @@ Welcome to Sample's documentation!
    :caption: Contents:
 
 
+Switch 
+======
+
+.. automodule:: mdslib.switch
+.. autoclass:: mdslib.switch.Switch
+   :members:
+   :inherited-members:
 
 Indices and tables
 ==================
